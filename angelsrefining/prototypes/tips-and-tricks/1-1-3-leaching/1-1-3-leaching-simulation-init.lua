@@ -2,14 +2,14 @@ game.simulation.camera_position = { -2.5, 1 }
 game.simulation.camera_zoom = 1.7
 game.simulation.camera_alt_info = true
 
-game.forces.neutral.recipes["angelsore1-crystal"].enabled = true
+game.forces.neutral.recipes["angels-ore1-crystal"].enabled = true
 -- leaching cell
 game.surfaces[1].create_entity({
   name = "ore-leaching-plant",
   position = { 0, 0 },
   direction = defines.direction.east,
   force = "neutral",
-  recipe = "angelsore1-crystal",
+  recipe = "angels-ore1-crystal",
 })
 -- inserters (input)
 game.surfaces[1].create_entity({
